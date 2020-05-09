@@ -1,0 +1,59 @@
+body {
+  color: #2B2B2B;
+}
+
+.title {
+  padding: .25em 0 .25em .75em;
+  border-left: 10px solid #62D87D;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px;
+  padding: 0 0 0 10px;
+}
+
+.content {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.edit-area {
+  width: 900px;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 20px 20px 30px 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.input-area {
+  margin: 0 20px;
+}
+
+.base-text {
+  width: 100%;
+  border-radius: 10px;
+  font-size: 18px;
+  border: 1px solid #dfdfdf;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  margin: 10px 0px;
+  transition: 0.3s;
+}
+
+.base-text::-webkit-input-placeholder {
+  color: #bfbfbf;
+}
+
+.base-text::-moz-placeholder {
+  color: #dfdfdf;
+}
+
+.base-text:-ms-input-placeholder {
+  color: #dfdfdf;
+}
+
+.base-text:focus {
+  outline: 0;
+  border: 1px solid #5CC974;
+  box-shadow: 0 0 4px 0 #00802C;
+}

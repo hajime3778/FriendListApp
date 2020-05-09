@@ -1,0 +1,122 @@
+.regist {
+  color: #ffffff;
+  background-color: #7FD989;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 37px;
+  border-radius: 50%;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .12),
+    0 2px 2px 0 rgba(0, 0, 0, .24);
+}
+
+.regist:hover {
+  color: #7FD989;
+  background-color: #efefef;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .14),
+    0 1px 10px 0 rgba(0, 0, 0, .12),
+    0 2px 4px -1px rgba(0, 0, 0, .2);
+}
+
+.dust {
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 8px;
+  background-color: #20ab30;
+  vertical-align: middle;
+  transition: .2s;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .12),
+    0 2px 2px 0 rgba(0, 0, 0, .24);
+}
+
+.dust:hover {
+  background-color: #7FD989;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .14),
+    0 1px 10px 0 rgba(0, 0, 0, .12),
+    0 2px 4px -1px rgba(0, 0, 0, .2);
+}
+
+.dust:active {
+  margin: 2px 0px 0px 2px;
+  width: 13px;
+  height: 13px;
+}
+
+.regist:active {
+  margin: 4px 0px 0px 4px;
+  width: 36px;
+  height: 36px;
+}
+
+.list-area {
+  margin-top: 40px;
+}
+
+.friend_list_title {
+  border-bottom: 1px solid #707070;
+  padding: 10px 20px;
+}
+
+.friend_list_title li {
+  display: inline-block;
+  color: #00802C;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.name_space {
+  width: 150px;
+  height: auto;
+}
+
+.mail_space {
+  width: 200px;
+  height: auto;
+}
+
+.birthday_space {
+  width: 120px;
+  height: auto;
+}
+
+.favorite_space {
+  width: 200px;
+  height: auto;
+}
+
+.remarks_space {
+  width: 360px;
+  height: auto;
+}
+
+.delete_button {
+  width: 40px;
+  height: auto;
+}
+
+.friend-row {
+  padding: 8px 0px;
+  transition: 0.3s;
+}
+
+.friend-row:hover {
+  background-color: #e5ffe1;
+}
+
+.friend {
+  display: inline-block;
+  padding: 0px 20px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.friend li {
+  display: inline-block;
+}

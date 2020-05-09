@@ -1,0 +1,19 @@
+.date-text {
+  width: 250px;
+}
+
+.base-button {
+  display: block;
+  text-align: center;
+  width: 60%;
+  color: #ffffff;
+  background-color: #5CC974;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 25px;
+  border: none;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  margin: auto;
+  margin-top: 20px;
+}

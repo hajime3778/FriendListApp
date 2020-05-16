@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { HttpUtil } from '../common/Utils/HttpUtil';
+import { HttpUtil } from '../common/utils/HttpUtil';
 import { User } from '../models/User';
 
 export class EditView {

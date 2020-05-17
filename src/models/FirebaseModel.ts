@@ -66,31 +66,6 @@ export class FirebaseModel {
       }
     }
 
-
-    const hoge = {
-      writes: [
-        {
-          updateMask: {
-            fieldPaths: [
-              "name",
-              "favorite"
-            ]
-          },
-          update: {
-            name: "projects/YOUR_PROJECT_ID/databases/(default)/documents/users/2zvC6qdeajc4rzvMdvwv",
-            fields: {
-              name: {
-                stringValue: "update-test"
-              },
-              favorite: {
-                stringValue: "foo bar"
-              }
-            }
-          }
-        }
-      ]
-    }
-    console.log(hoge)
     console.log(firebaseUpdateModel)
 
     return firebaseUpdateModel
